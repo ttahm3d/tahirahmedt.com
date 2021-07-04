@@ -3,9 +3,9 @@
 .hero_container {
   display: flex;
   flex-direction: column;
-  padding: 2rem 0;
   width: 90%;
   margin: 0 auto;
+  padding: 2rem 0;
 
   h1 {
     font-size: 3.2rem;
@@ -14,10 +14,15 @@
   p {
     font-size: 1.4rem;
   }
+
+  span {
+    color: $primaryColor;
+    font-weight: 600;
+  }
 }
 
 .link_container {
-  padding: 1rem 0;
+  padding: 1rem 0 0;
   display: flex;
   gap: 1rem;
   svg {
@@ -25,8 +30,8 @@
   }
 }
 
-@media screen and (min-width: 50em) {
-  .hero_container {
-    padding: 3rem;
-  }
-}
+// @media screen and (min-width: 50em) {
+//   .hero_container {
+//     width: 80%;
+//   }
+// }

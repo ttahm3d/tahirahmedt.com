@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+.ts_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  div {
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      gap: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      font-size: 4rem;
+    }
+  }
+
+  div.normal {
+    text-align: left;
+
+    ul.disc_list {
+      flex-direction: column;
+      list-style-type: disc;
+      padding-left: 1rem;
+      gap: 1rem;
+
+      li {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  span {
+    color: $primaryColor;
+    font-weight: 600;
+  }
+}
