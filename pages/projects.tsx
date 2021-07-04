@@ -1,6 +1,6 @@
 const Projects: React.FC = () => {
   return (
-    <main>
+    <main className="main-container">
       <h1>/projects</h1>
     </main>
   );

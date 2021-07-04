@@ -3,12 +3,14 @@
 .header {
   padding: 0.5rem;
   position: fixed;
-  opacity: 0.8;
-  z-index: 999;
+  z-index: 2;
   width: 100%;
+  background-color: $greyishBlue;
 }
 
 .header__navbar {
+  width: 90vw;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,11 +43,8 @@
   display: none;
 }
 
-// .header__links__container {
-//   transform: scale(1, 0);
-// }
-
 .header__links__list {
+  background-color: $greyishBlue;
   position: fixed;
   display: flex;
   flex-direction: column;

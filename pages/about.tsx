@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div>
+    <div className="main-container">
       <h1>/about</h1>
     </div>
   );
