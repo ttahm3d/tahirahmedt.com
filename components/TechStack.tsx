@@ -16,7 +16,7 @@ export const TechStack = () => {
     <section className={styles.ts_container}>
       <div className={styles.normal}>
         <p style={{ fontWeight: "bold" }}>A bit more about me</p>
-        <p style={{ textAlign: "justify" }}>
+        <p>
           I started as a dotnet developer and learnt React from the internet and
           later transitioned into a React Developer role. At my current
           employer, I'm rewriting codebases of one of the Largest Banks in the
@@ -71,19 +71,6 @@ export const TechStack = () => {
           </li>
         </ul>
       </div>
-      {/* <div className={styles.normal}>
-        <ul className={styles.disc_list}>
-          <li>
-            <span>NextJS</span> - This is being touted to be the next big thing
-            in Web Development and so far whatever the team at Vercel is doing
-            is living upto the expectations
-          </li>
-          <li>
-            <span>GraphQL</span> - This is going to replace RESTFul interfaces
-            everywhere
-          </li>
-        </ul>
-      </div> */}
     </section>
   );
 };
