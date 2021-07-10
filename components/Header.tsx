@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Header.module.scss";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useMediaQuery } from "./_utils/CustomHooks/useMediaQuery";
@@ -16,7 +17,12 @@ const Header = () => {
             className={styles.header__logo}
             onClick={() => setToggle(false)}
           >
-            Tahir
+            <img
+              src="/website-icon.svg"
+              alt="Icon"
+              width="50px"
+              height="50px"
+            />
           </span>
         </Link>
         <div>

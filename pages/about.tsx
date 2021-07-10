@@ -2,16 +2,25 @@ import styles from "../styles/About.module.scss";
 
 const About = () => {
   return (
-    <div className="main-container">
+    <>
+      <div className="main-container">
+        <div className="hero-container">
+          <h1>/about</h1>
+        </div>
+      </div>
       <div className={styles.container}>
-        <h1>/about</h1>
         <p>
           I am a Software Engineer by Profession. I did my Bachelor's of
           Engineering in <span>Computer Science and Engineering</span> from{" "}
-          <span>Nitte Meenakshi Institute of Technology</span> (2014 - 2018),
-          Bengaluru. I started learning programming very early in my primary
-          school (around class 7th) and I was fascinated by the way I could get
-          something complex done while I just write some lines of code.
+          <span>
+            <a href="https://www.nmit.ac.in" target="_blank">
+              Nitte Meenakshi Institute of Technology
+            </a>
+          </span>{" "}
+          (2014 - 2018), Bengaluru. I started learning programming very early in
+          my primary school (around class 7th) and I was fascinated by the way I
+          could get something complex done while I just write some lines of
+          code.
         </p>
         <p>
           I started working at Wipro Limited in July 2018, as a Dotnet
@@ -34,20 +43,40 @@ const About = () => {
           <li>Contributed to internal styling library</li>
         </ul>
         <p>
-          I follow <span>UFC</span> and <span>Formula 1</span> very closely. My
-          Saturday mornings start with Bruce Buffer's "IT's TIME" introductions
-          and Sundays (on Race Weekends) usually end with Crofty's "And its
-          Lights out and Away we go". These sport bring sort of competetiveness
-          in me &mdash; to go out everyday as a new day to prove yourself that
-          you are better than your yesterday.
-        </p>
-        <p>
-          I have a keen interest in Esports. I used to follow CS:GO until
-          Astralis and Liquid started sharing 1st places between them. I am a
-          huge fan of DotA 2 and I follow its Esports scene quite closely
+          Away from programing world, I follow <span>UFC</span> and{" "}
+          <span>Formula 1</span> very closely. I have a keen interest in
+          Esports. I used to play lot of{" "}
+          <span>
+            <a
+              href="https://store.steampowered.com/app/10/CounterStrike/"
+              target="_blank"
+            >
+              Counter Strike
+            </a>
+          </span>{" "}
+          during childhood and that trasferred into love for{" "}
+          <span>
+            <a
+              href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+              target="_blank"
+            >
+              Counter Strike : Global Offensive
+            </a>
+          </span>
+          . I discovered{" "}
+          <span>
+            <a
+              href="https://store.steampowered.com/app/570/Dota_2/"
+              target="_blank"
+            >
+              Defense of the Ancient 2 (DotA-2)
+            </a>
+          </span>{" "}
+          at the same time and became huge fan of the game and I follow its
+          Esports scene quite closely
         </p>
       </div>
-    </div>
+    </>
   );
 };
 

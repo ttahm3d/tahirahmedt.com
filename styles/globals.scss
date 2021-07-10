@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800;900&display=swap");
 
 *,
 *::before,
@@ -26,4 +27,30 @@ a {
   background-color: $greyishBlue;
   position: relative;
   padding: 3.6785rem 0 1.5rem;
+
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  span {
+    color: $primaryColor;
+    font-weight: 600;
+  }
 }
