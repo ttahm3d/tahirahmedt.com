@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
         </div>
       </main>
       <div className={styles.container}>
-        <p>Projects</p>
+        <p>Coming soon.....</p>
       </div>
     </>
   );
