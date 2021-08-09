@@ -1,7 +1,8 @@
 @import "./variables.scss";
 
 .ts_container {
-  width: 90%;
+  width: 90vw;
+  max-width: 50em;
   margin: 0 auto;
   padding: 2rem 0;
 
