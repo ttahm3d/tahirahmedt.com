@@ -2,9 +2,10 @@
 
 .header {
   padding: 0.5rem;
-  position: fixed;
+  position: sticky;
+  top:0;
+  backdrop-filter: blur(8px);
   z-index: 2;
-  width: 100%;
   background-color: $greyishBlue;
 }
 
@@ -46,7 +47,11 @@
 
 .header__links__list {
   background-color: $greyishBlue;
-  position: fixed;
+  opacity: 0.8;
+  position: absolute;
+  top:2.5rem;
+  height: 40vh;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -60,7 +65,7 @@
   display: block;
   padding: 0 0.8rem;
   margin: 1rem auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -81,6 +86,8 @@
   .header__links__list {
     position: static;
     flex-direction: row;
+    height: auto;
+    font-size: 1.2rem;
   }
 
   .header__links {
